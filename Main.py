@@ -10,8 +10,8 @@ def selectionSort(array, size) -> List[int]:
   return array
 
 # Do not change the following code
-input_data = input()
-data = 
+input_data = input
+data = []
 for item in input_data.split(', '):
   if item.isnumeric():
     data.append(int(item))
